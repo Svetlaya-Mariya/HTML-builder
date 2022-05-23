@@ -14,6 +14,7 @@ const stream = fs.createWriteStream(
         }
     }
 );
+
 console.log('Hello. Write some text');
 
 rl.on('line', (data) => {
