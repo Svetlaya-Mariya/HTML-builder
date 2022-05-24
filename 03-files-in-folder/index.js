@@ -20,7 +20,5 @@ async function fileInfo(){
         console.log('Error', err.message);
         return;
     }
-    
-
 }
 fileInfo();
