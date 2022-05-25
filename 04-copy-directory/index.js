@@ -29,7 +29,6 @@ async function copyDir(dir, dirCopy){
                 await copyFile(dirFilePath, dirCopyFilePath);
             }
         }
-
 }
 
 copyDir('files', 'files-copy');
